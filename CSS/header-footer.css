@@ -1,0 +1,124 @@
+@import url("reset.css");
+body{
+    font-family: Verdana;
+    
+
+    
+    
+}
+
+.header-container{
+    /* 設定寬度，置中 */
+    margin:  auto;
+    width: 100%;
+}
+    
+/* header 頁首 */
+.header-top{
+    /* 返還高度 */
+    overflow: hidden;
+    background-color: black;
+    height: 100px;
+}
+/* 文字排序，A段落去底線 */
+.header-top img{
+    /* float: left; */
+    height: 70px;
+    width: 250px;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.header-in {
+    float: right;
+    margin-top: 40px;
+}
+.header-in li{
+    float: left;
+    margin-left: 10px;
+    padding-right: 40px;
+
+}
+.header-in a{
+    color: white;
+	text-decoration: none;
+    font-size: 25px;
+}
+
+
+/* footer 頁尾 */
+.footer-container{
+    height: 250px;
+    background-color: black;
+    color: white;
+    /* margin-top: 10px; */
+}
+
+.footer-top{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+}
+
+.footer-lift{
+    margin-right: 30px;
+}
+
+.footer-lift img{
+    width: 200px;
+    height: 52px;
+}
+
+.footer-middle{
+    margin-right: 30px;
+}
+
+.footer-middle h1{
+    line-height: 1.6;
+}
+
+.footer-right .qanda {
+    width: 150px;
+    background-color: #fff;
+}
+
+.footer-right a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 35px;
+    line-height: 1.6;
+    
+}
+
+.footer-right .icon {
+    font-size: 40px;
+    display: flex;
+    margin: 15px;
+}
+
+.fa-facebook-square {
+    color: blue;
+    margin-right: 35px;
+}
+.fa-instagram{
+    color: #F68721;
+}
+
+.footer-text{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20PX;
+}
+
+
+
+
+
+
+
+
+
+

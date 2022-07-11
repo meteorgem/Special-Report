@@ -1,0 +1,178 @@
+
+.article-container{
+    width: 100%;
+    margin:  auto;
+    color: white;
+    
+}
+/* 第一層 */
+.middle-top{
+    background-image: url(../IMG/meat7.5.5.5.jpg);
+    height: 900px;
+    max-width: 1920px;
+   
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    background-size:cover;
+   
+    background-position: center top;
+
+}
+
+.middle-top h1{
+    font-size: 48px;
+    padding-top: 345px;
+}
+
+.middle-top h2{
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+
+
+
+.meat{
+    width: 450px;
+    position: absolute;
+	right: 15px;
+	bottom: 40px;
+    animation-name: meat;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: right;
+}
+@keyframes meat{
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+/* 第二層 */
+.middle-middle{
+    background-image: url(../活動修圖/Activity12.1.jpg);
+    height: 950px;
+    max-width: 1920px;
+    line-height: 1.6;
+    background-size:cover;
+    background-position: center top;
+
+}
+
+.middle-middle-on{
+    display: flex;
+    text-align: center;
+    
+    font-size: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 3PX black solid; */
+    margin-bottom: 50PX;
+}
+
+.middle-middle-lift{
+    margin-top: 60px;
+    margin-right: 400px;
+}
+.middle-middle-lift img{
+    width: 400PX;
+    height: 300px;
+}
+.middle-middle-lift h1{
+    margin-top: 100px;
+}
+
+.middle-middle-right{
+    margin-top: 80px;
+    
+}
+
+.middle-middle-right img{
+    width: 400PX;
+    height: 300px;
+    margin-top: 80px;
+}
+.middle-middle-right h1{}
+
+.middle-under{}
+
+.middle-middle-under img{
+    width: 1200PX;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* 第三層 */
+.middle-under{
+    background-image: url(../活動修圖/Background2.jpeg);
+    background-position: center top;
+    background-size: cover;
+    max-width: 1920px;
+    height: 850px;
+    
+}
+
+.middle-under-in{
+    
+}
+
+.middle-under-in h1{
+    color: red;
+    text-align: center;
+    font-size: 40PX;
+    line-height: 1.6;
+    padding-top: 50px;
+}
+
+.middle-under-box{
+}
+
+.middle-under-1{
+    display: flex;
+    justify-content: center;/*水平置中*/
+    padding-top: 50px;
+
+}
+
+.middle-under-1 li{
+    width: 400PX;
+    margin-right: 40px;
+    
+}
+
+
+.middle-under-1 li img{
+    width: 400px;
+    height: 400px;
+
+}
+
+.middle-under-1 li h1{
+    font-size: 32PX;
+    text-align: center;
+    margin: 25px;
+}
+
+.middle-under-1 li p{
+    font-size: 20px;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+.menu-all{
+    width: 100%;
+   
+}
+
+.menu-top{
+    
+}
+
+.menu-top h1{
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.menu-menu{
+    
+}
+
+.menu-menuin{
+    
+}
+
+.menu-menuin li{
+    width: 1500px;
+    height: 350;
+    background-color: black;
+    border-radius: 80px;
+    margin: 0 auto;
+}
+
+.menu-menu1{
+    display: flex;
+}
+
+.menu-menu2{
+    display: flex;
+}
+
+.menu-menu3{
+    display: flex;
+}
+
+.menu-menuin img{
+    width: 258px;
+    height: 258px;
+}
+
+.menu-menuin h1{
+    color: white;
+}
+
+.menu-menuin p{
+    color: white;
+}
+
+.menu-menuin h2{
+    color: #F68721;
+
+}
+
+
+.menu-menu-nuder{
+    width: 1800px;
+    height: 410px;
+    background-color: black;
+    border-radius: 80px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    padding-top: 60px;
+}
+
+.menu-menu-ul-1{
+    margin: 0 auto;
+}
+.menu-menu-ul-2{
+    margin: 0 auto;
+}
+.menu-menu-ul-3{
+    margin: 0 auto;
+}
+
+.menu-menu-nuder img{
+    width: 450px;
+    height: 300px;
+}
+
+.menu-menu-nuder h1{
+    font-size: 36px;
+    margin-right: 180px;
+}
+
+.menu-menu-nuder h2{
+    font-size: 36px;
+}
+
+
+.menu-menu-under1{
+    display: flex;
+}
+
+.menu-menu-under2{
+    display: flex;
+}
+
+.menu-menu-under3{
+    display: flex;
+}
+
+
+
+
