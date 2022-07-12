@@ -64,7 +64,7 @@
 
 /* 第二層 */
 .middle-middle{
-    background-image: url(../活動修圖/Activity12.1.jpg);
+    background-image: url("../Activity/Activity12.1.jpg");
     height: 950px;
     max-width: 1920px;
     line-height: 1.6;
@@ -120,7 +120,7 @@
 
 /* 第三層 */
 .middle-under{
-    background-image: url(../活動修圖/Background2.jpeg);
+    background-image: url("../Activity/Background2.jpeg");
     background-position: center top;
     background-size: cover;
     max-width: 1920px;

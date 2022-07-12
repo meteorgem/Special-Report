@@ -23,40 +23,43 @@
 
 .menu-menuin li{
     width: 1500px;
-    height: 350;
+    height: 350px;
     background-color: black;
     border-radius: 80px;
     margin: 0 auto;
-}
-
-.menu-menu1{
     display: flex;
+    
 }
-
-.menu-menu2{
-    display: flex;
-}
-
-.menu-menu3{
-    display: flex;
+.menu-menu1-content1{
+    font-size: 36px;
 }
 
 .menu-menuin img{
     width: 258px;
     height: 258px;
+    margin: 40px 80px;
 }
+
 
 .menu-menuin h1{
     color: white;
+    margin-top: 10px;
 }
 
 .menu-menuin p{
     color: white;
+    margin-left: 230px;
 }
-
+.menu-menu1 h2{
+    margin-top: 100px;
+}
+.menu-menu2 h2{
+    margin-top: 70px;
+}
 .menu-menuin h2{
     color: #F68721;
-
+    font-size: 40px;
+    margin-left: 700px;
 }
 
 
