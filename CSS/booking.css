@@ -1,0 +1,81 @@
+.booking{
+    width: 100%;
+    height: 800px;
+}
+
+
+.booking-top{
+    background-image: url(../Activity/INLINE.jpg);
+    width: 1440px;
+    height: 250PX;
+    margin: 0 auto;
+
+}
+
+.booking-top h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.booking-middle{
+    font-size: 30px;
+    width: 1440px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.booking-middle-in{}
+
+
+select[name=adults]{
+    width: 450px;
+    height: 50px;
+    background-color: #f08c0a;
+    font-size: 30px;
+}
+select[name=people]{
+    width: 120px;
+    height: 30px;
+    background-color: #f08c0a;
+    font-size: 30px;
+}
+input[type=date]{
+    width: 440px;
+    height: 30px;
+    background-color: #f08c0a;
+    font-size: 30px;
+}
+input[type=time]{
+    width: 440px;
+    height: 30px;
+    background-color: #f08c0a;
+    font-size: 30px;
+}
+
+.booking-under{
+    margin: 0 auto;
+    width: 160px;
+    height: 50px;
+    background-color: #f08c0a;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-radius:20px;
+}
+.booking-under a{
+    text-decoration: dashed;
+    
+    font-size: 30px;
+    
+}
+
+
+
+
+
+
+
