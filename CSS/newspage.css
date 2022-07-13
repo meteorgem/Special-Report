@@ -1,0 +1,35 @@
+.newspage{
+    width: 100%;
+}
+
+.newspage ul{
+    display: flex;
+    width: 1440px;
+    height: 500px;
+    background-color: #F39E4F;
+    margin: 30px auto;
+    border-radius:50px;
+
+
+}
+
+.newspage img{
+    width: 500px;
+    height: 400px;
+    margin: auto 30px;
+
+
+}
+
+.newspage li{}
+
+.newspage h1{
+    font-size: 35px;
+    margin-top: 60px;
+    color: aqua;
+}
+
+.newspage p{
+    font-size: 20px;
+    margin-top: 40px;
+}
