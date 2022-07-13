@@ -1,0 +1,60 @@
+.finish-top{
+    background-image: url(../Activity/INLINE.jpg);
+    width: 1440px;
+    height: 250PX;
+    margin: 0 auto;
+
+}
+
+
+.finish-top h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.finish-middle{
+    font-size: 30px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.finish-middle-in{
+    text-align: center;
+}
+.finish-middle img{
+    width: 675px;
+    height: 200px;
+
+}
+
+.finish-middle h1{}
+
+.finish-middle h2{}
+
+
+
+
+
+
+
+.finish-under{
+    margin: 0 auto;
+    width: 160px;
+    height: 50px;
+    background-color: #f08c0a;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-radius:20px;
+}
+.finish-under a{
+    text-decoration: dashed;
+    
+    font-size: 30px;
+    
+}
