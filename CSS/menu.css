@@ -25,9 +25,11 @@
     width: 1500px;
     height: 350px;
     background-color: black;
+    /* background-image: url(../Activity/background1.jpg); */
     border-radius: 80px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 20px;
     
 }
 .menu-menu1-content1{
@@ -61,8 +63,6 @@
     font-size: 40px;
     margin-left: 700px;
 }
-
-
 .menu-menu-nuder{
     width: 1800px;
     height: 410px;
@@ -72,16 +72,11 @@
     color: white;
     display: flex;
     padding-top: 60px;
+    margin-bottom: 20px;
 }
-
-.menu-menu-ul-1{
+.menu-menu-ul{
     margin: 0 auto;
-}
-.menu-menu-ul-2{
-    margin: 0 auto;
-}
-.menu-menu-ul-3{
-    margin: 0 auto;
+    
 }
 
 .menu-menu-nuder img{
@@ -92,24 +87,16 @@
 .menu-menu-nuder h1{
     font-size: 36px;
     margin-right: 180px;
+    
 }
 
 .menu-menu-nuder h2{
     font-size: 36px;
 }
-
-
-.menu-menu-under1{
+.menu-menu-under-in{
     display: flex;
 }
 
-.menu-menu-under2{
-    display: flex;
-}
-
-.menu-menu-under3{
-    display: flex;
-}
 
 
 
