@@ -1,0 +1,81 @@
+.branch{
+    width: 100%;
+    
+}
+
+
+.branch-top{
+    background-image: url(../Activity/Activity3.1.jpg);
+    background-position: center center;
+    width: 960px;
+    height: 250PX;
+    margin: 0 auto;
+}
+.branch-top h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.branch-middle{
+    display: flex;
+    justify-content: center;
+}
+
+.branch-middle-in{}
+
+.branch-middle-in li{
+    font-size: 32px;
+}
+.branch-middle-in p{
+    width: 450px;
+    height: 30px;
+    background-color: #C4C4C4;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+.branch-middle-in img{
+    width: 200px;
+    height: 200px;
+}
+.branch-middle-in h1{
+    font-size: 30px;
+    color: green;
+
+}
+.branch-middle-in ul{
+   margin: 40px auto;
+}
+
+
+.branch-middle-in-top{
+    width: 1200px;
+    height: 300px;
+    background-color: #F39E4F;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 30px;
+
+}
+
+.branch-middle-in-middle{
+    width: 1200px;
+    height: 300px;
+    background-color: #F39E4F;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    
+}
+
+.branch-middle-in-under{
+    width: 1200px;
+    height: 300px;
+    background-color: #F39E4F;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
