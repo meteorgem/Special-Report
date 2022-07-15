@@ -33,8 +33,23 @@ body{
     float: left;
     margin-left: 10px;
     padding-right: 40px;
-
+    position: relative;
 }
+
+.header-in-hover::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #F39E4F;
+    position: absolute;
+    margin-top: 5px;
+    transition: width 0.5s ease-in;
+}
+.header-in-hover:hover.header-in-hover::after{
+    width: 65%;
+}
+
 .header-in a{
     color: white;
 	text-decoration: none;
