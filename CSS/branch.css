@@ -24,7 +24,9 @@
     justify-content: center;
 }
 
-.branch-middle-in{}
+.branch-middle-in a{
+    text-decoration: none;
+}
 
 .branch-middle-in li{
     font-size: 32px;

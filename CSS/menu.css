@@ -24,8 +24,8 @@
 .menu-menuin li{
     width: 1500px;
     height: 350px;
-    background-color: black;
-    /* background-image: url(../Activity/background1.jpg); */
+    /* background-color: black; */
+    background-image: url(../Activity/Background2.jpeg);
     border-radius: 80px;
     margin: 0 auto;
     display: flex;
@@ -46,6 +46,7 @@
 .menu-menuin h1{
     color: white;
     margin-top: 10px;
+    font-size: 40px;
 }
 
 .menu-menuin p{
