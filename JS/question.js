@@ -14,5 +14,6 @@ $(".question-middle-inder h2").click(function(){
       $(this).next(".question-middle-on").addClass("active").slideDown();
       
       $(this).children("span").html('-');
+      // console.log(this);
     }
   })
