@@ -21,7 +21,7 @@
     margin: 0 auto;
 }
 
-.single-acco h2 {
+.question-middle-inder h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,13 +32,13 @@
     font-size: 30px;
 }
 
-.accodion-body {
+.question-middle-on {
     background: #eee;
     padding: 1rem;
     margin-bottom: 20px;
     display: none;
     font-size: 20px;
 }
-.accodion-body:first-child {
+.question-middle-on:first-child {
     display: block;
 }
