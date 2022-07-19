@@ -36,7 +36,7 @@
     height: 30px;
     background-color: #C4C4C4;
     color: blue;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
 }
 .branch-middle-in img{
@@ -44,12 +44,13 @@
     height: 200px;
 }
 .branch-middle-in h1{
-    font-size: 30px;
+    font-size: 24px;
     color: green;
+    
 
 }
 .branch-middle-in ul{
-   margin: 40px auto;
+   margin: 20px auto;
 }
 
 

@@ -22,15 +22,15 @@
 }
 
 .menu-menuin li{
-    width: 1500px;
+    width: 1200px;
     height: 350px;
     /* background-color: black; */
     background-image: url(../Activity/Background2.jpeg);
-    border-radius: 80px;
+    border-radius: 10px;
     margin: 0 auto;
     display: flex;
     margin-bottom: 20px;
-    
+    line-height: 1.4;
 }
 .menu-menu1-content1{
     font-size: 36px;
@@ -40,39 +40,43 @@
     width: 258px;
     height: 258px;
     margin: 40px 80px;
+    border-radius: 10px;
 }
 
 
 .menu-menuin h1{
     color: white;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .menu-menuin p{
     color: white;
-    margin-left: 230px;
+    margin-left: 150px;
+    font-size: 22px;
 }
 .menu-menu1 h2{
-    margin-top: 100px;
+    margin-top: 105px;
 }
 .menu-menu2 h2{
     margin-top: 70px;
 }
+
+
 .menu-menuin h2{
     color: #F68721;
-    font-size: 40px;
-    margin-left: 700px;
+    font-size: 28px;
+    margin-left: 450px;
 }
 .menu-menu-nuder{
-    width: 1800px;
-    height: 410px;
+    width: 1300px;
+    height: 260px;
     background-color: black;
-    border-radius: 80px;
+    border-radius: 10px;
     margin: 0 auto;
     color: white;
     display: flex;
-    padding-top: 60px;
+    padding-top: 35px;
     margin-bottom: 20px;
 }
 .menu-menu-ul-1{
@@ -93,8 +97,9 @@
 }
 
 .menu-menu-nuder img{
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 .menu-menu-ul-1 img:hover{
@@ -108,13 +113,13 @@
 }
 
 .menu-menu-nuder h1{
-    font-size: 36px;
-    margin-right: 180px;
+    font-size: 24px;
+    margin-right: 120px;
     
 }
 
 .menu-menu-nuder h2{
-    font-size: 36px;
+    font-size: 24px;
 }
 .menu-menu-under-in{
     display: flex;

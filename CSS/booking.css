@@ -14,7 +14,7 @@
 }
 
 .booking-top h1{
-    font-size: 40px;
+    font-size: 36px;
     color: white;
     text-align: center;
     padding-top: 100px;
@@ -36,25 +36,25 @@
 select[name=adults]{
     width: 450px;
     height: 50px;
-    background-color: #f08c0a;
+    
     font-size: 30px;
 }
 select[name=people]{
     width: 120px;
     height: 30px;
-    background-color: #f08c0a;
+    
     font-size: 30px;
 }
 input[type=date]{
     width: 440px;
     height: 30px;
-    background-color: #f08c0a;
+    
     font-size: 30px;
 }
 input[type=time]{
     width: 440px;
     height: 30px;
-    background-color: #f08c0a;
+    
     font-size: 30px;
 }
 
@@ -65,12 +65,13 @@ input[type=time]{
     background-color: #f08c0a;
     text-align: center;
     margin-top: 30px;
-    padding-top: 20px;
     border-radius:20px;
+    margin-bottom: 20px;
 }
 .booking-under a{
     text-decoration: dashed;
     font-size: 30px;
+    
 }
 
 
