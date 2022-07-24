@@ -52,21 +52,15 @@
 
 .menu-menuin p{
     color: white;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     font-size: 22px;
 }
-.menu-menu1 h2{
-    margin-top: 105px;
-}
-.menu-menu2 h2{
-    margin-top: 70px;
-}
-
 
 .menu-menuin h2{
     color: #F68721;
     font-size: 28px;
-    margin-left: 450px;
+    margin-left: 350px;
+    margin-top: 300px;
 }
 .menu-menu-nuder{
     width: 1300px;
