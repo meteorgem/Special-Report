@@ -111,10 +111,12 @@
     font-size: 36px;
 }
 
-.middle-under{}
+.middle-middle-under{
+    
+}
 
 .middle-middle-under img{
-    width: 1200PX;
+    width: 52.63%;
     height: 350px;
     display: block;
     margin: 0 auto;
