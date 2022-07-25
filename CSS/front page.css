@@ -69,7 +69,7 @@ body{
 /* 第二層 */
 .middle-middle{
     background-image: url("../Activity/Activity12.1.jpg");
-    height: 950px;
+    height: 1050px;
     max-width: 1920px;
     line-height: 1.6;
     background-size:cover;
@@ -85,7 +85,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     /* border: 3PX black solid; */
-    margin-bottom: 50PX;
+    margin-bottom: 20PX;
 }
 
 .middle-middle-lift{
@@ -119,24 +119,40 @@ body{
 .middle-middle-under{
     position: relative;
     margin: auto;
-    padding: auto;
-    width: 1000px;
-    height: 350px;
+    width: 50%;
+    
 }
 
 .middle-middle-under img{
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     display: block;
-    margin: 0 auto;
+    object-fit: cover;
 }
 .swiper {
     width: 100%;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .swiper-slide {
-    overflow: hidden;
+        /* background: #fff; */
+
+        /* Center slide text vertically */
+        /* display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; */
+      
   }
 
 
