@@ -36,6 +36,10 @@ body{
     position: relative;
 }
 
+.fa-bars {
+	display: none;
+}
+
 .header-in-hover::after{
     content: "";
     display: block;
@@ -124,8 +128,167 @@ body{
     height: 20PX;
 }
 
+@media (max-width: 415px) {
+    body{
+        font-family: Verdana;
+        line-height: 1.6;
+    }
+    
+    .header-container{
+        /* 設定寬度，置中 */
+        margin:  auto;
+        width: 100%;
+    }
+        
+    /* header 頁首 */
+    .header-top{
+        /* 返還高度 */
+        overflow: hidden;
+        background-color: black;
+        height: 100px;
+    }
+    /* 文字排序，A段落去底線 */
+    .header-top img{
+        /* float: left; */
+        height: 70px;
+        width: 150px;
+        margin-top: 0px;
+        padding-left: 10px;
+    }
+    .fa-bars {
+        display: block;
+        float: right;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+    .header-in {
+        float: right;
+        margin-top: 40px;
+        max-height: 0;
+		overflow: hidden;
+        transition: max-height 0.5s;
+    	margin-top: 1px;
+    	position: absolute;
+        z-index: 50;
+    	top: 81px;
+    	left: 0;
+   		right: 0;
+    	background: black;
+    }
+    .header-in.active {
+        max-height: 500px; 
+    }
 
+    .header-in li{
+        float: none;
+        margin-right: 50px;
+        position: relative;
+    }
+    
+    .header-in-hover::after{
+        display: none;
+    }
+    .header-in-hover:hover.header-in-hover::after{
+        width: 0%;
+    }
+    
+    .header-in a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+    
+    /* footer 頁尾 */
+    .footer-container{
+        height: 230px;
+        background-color: black;
+        color: white;
+        /* margin-top: 10px; */
+        
+        width: 100%;
+    }
+    
+    .footer-top{
+        /* width: 414px; */
+        /* max-width: 1200px; */
+        /* margin: 0 auto; */
+        padding-top: 20px;
+        display: block;
+        
+    }
+    
+    .footer-lift{
+        margin-right: 0px;
+        display: flex;
+        
+    }
+    
+    .footer-lift img{
+        width: 200px;
+        height: 52px;
+        margin: 0 auto;
+        
+    }
+    
+    .footer-middle{
+        margin-right: 0px;
+    }
+    
+    .footer-middle h1{
+        line-height: 1.6;
+        font-size: 8px;
+        text-align: center;
+    }
+    .footer-right{
+        width: 414px;
+        
+    }
+    .footer-right .qanda {
+        width: 100px;
+        margin: 0 auto;
+        background-color: black;
+    }
+    
+    .footer-right .qanda a{
+        text-decoration: none;
+        font-size: 20px;
+        margin: 3px;
+        /* line-height: 1; */
+        text-align: center;
+        
+        
+    }
+    
+    .footer-right .icon {
+        font-size: 40px;
+        display: flex;
+        margin: 0px;
+        justify-content: center;
+        
+    }
+    
+    .fa-facebook-square {
+        color: blue;
+        margin-right: 10px;
 
+        
+    }
+    .fa-instagram{
+        color: #F68721;
+        margin-right: 0px;
+    }
+    
+    .footer-text{
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 20PX;
+        font-size: 7px;
+    }
+}
 
 
 
