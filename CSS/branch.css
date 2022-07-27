@@ -2,8 +2,6 @@
     width: 100%;
     
 }
-
-
 .branch-top{
     background-image: url(../Activity/Activity3.1.jpg);
     background-position: center center;
@@ -60,7 +58,7 @@
     background-color: #F39E4F;
     display: flex;
     margin: 20px 0;
-    border-radius: 30px;
+    border-radius: 10px;
 
 }
 
@@ -70,7 +68,7 @@
     background-color: #F39E4F;
     display: flex;
     margin-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     
 }
 
@@ -80,5 +78,84 @@
     background-color: #F39E4F;
     display: flex;
     margin-bottom: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
+}
+
+/* ___________________RWD________________ */
+
+
+@media (max-width: 415px) {
+
+    .branch-top{
+        width: 80%;
+        height: 150PX;
+        margin-bottom: 10px;
+    }
+    .branch-top h1{
+        font-size: 25px;
+        padding-top: 50px;
+    }
+    .branch-middle{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .branch-middle-in{
+
+    }
+    .branch-middle-in li{
+        font-size: 24px;
+        text-align: center;
+    }
+    .branch-middle-in p{
+        width: 80%;
+        height: 100%;
+        color: blue;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .branch-middle-in img{
+        width: 100%;
+        height: 80%;
+    }
+    .branch-middle-in h1{
+        font-size: 18px;
+        
+    }
+    .branch-middle-in ul{
+       margin: 20px auto;
+
+    }
+    .map{
+        width: 100%;
+    }
+    .branch-middle-in-top{
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .branch-middle-in-middle{
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        
+    }
+    
+    .branch-middle-in-under{
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
 }

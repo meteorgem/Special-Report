@@ -119,8 +119,90 @@
 .menu-menu-under-in{
     display: flex;
 }
+/* ___________________RWD________________ */
 
 
+@media (max-width: 415px) {
+    .menu-top h1{
+        font-size:24px;
+        text-align: center;
+    }
+
+    .menu-menuin li{
+        width: 80%;
+        height: 80%;
+        flex-direction: column;
+    }
+    .menu-menuin img{
+        width: 80%;
+        height: 80%;
+        margin: 20px 30px;
+        border-radius: 10px;
+    }
+    
+    .menu-menuin h1{
+        margin-top: 5px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .menu-menuin p{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .menu-menuin h2{
+        font-size: 25px;
+        margin-left: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .menu-menu-nuder{
+        width: 80%;
+        height: 80%;
+        flex-direction: column;
+    }
+    .menu-menu-ul-1{
+        transition: all 0s;
+        perspective: 0px;
+    }
+    .menu-menu-ul-2{
+        transition: all 0s;
+        perspective: 0px;
+    }
+    .menu-menu-ul-3{
+        transition: all 0s;
+        perspective: 0px;
+    }
+    
+    .menu-menu-nuder img{
+        width: 80%;
+        height: 80%;
+        margin: 0 30px;
+    }
+    
+    .menu-menu-ul-1 img:hover{
+        transform: translate3d(0px,0px,0px);
+    }
+    .menu-menu-ul-2 img:hover{
+        transform: translate3d(0,0px,0px);
+    }
+    .menu-menu-ul-3 img:hover{
+        transform: translate3d(0px,0px,0px);
+    }
+    .menu-menu-under-in{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .menu-menu-nuder h1{
+        font-size: 18px;
+        margin-right: 120px;
+    }
+    .menu-menu-nuder h2{
+        font-size: 18px;
+    }
+
+}
 
 
 

@@ -65,17 +65,64 @@ input[type=time]{
     background-color: #f08c0a;
     text-align: center;
     margin-top: 30px;
-    border-radius:20px;
+    border-radius:10px;
     margin-bottom: 20px;
 }
 .booking-under a{
-    text-decoration: dashed;
+    text-decoration: none;
     font-size: 30px;
     
 }
 
 
+/* ___________________RWD________________ */
 
+
+@media (max-width: 415px) {
+    .booking-top{
+        width: 80%;
+        height: 150PX;
+        background-position: none;
+    }
+    .booking-top h1{
+        font-size: 25px;
+        padding-top: 50px;
+    }
+    .booking-middle{
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    select[name=adults]{
+        width: 90%;
+        height: 20px;
+        font-size: 15px;
+    }
+    select[name=people]{
+        width: 90%;
+        height: 20px;
+        font-size: 15px;
+    }
+    input[type=date]{
+        width: 90%;
+        height: 20px;
+        font-size: 15px;
+    }
+    input[type=time]{
+        width: 90%;
+        height: 20px;
+        font-size: 15px;
+    }
+    
+    .booking-under{
+        width: 30%;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .booking-under a{
+        font-size: 20px;
+    }
+}
 
 
 
