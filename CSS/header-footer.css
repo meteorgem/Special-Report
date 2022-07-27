@@ -135,6 +135,9 @@ body{
 
 
 @media (max-width: 415px) {
+    body{
+        max-width: 415px
+    }
     .header-top{
         height: 80px;
     }

@@ -1,24 +1,9 @@
 .menu-all{
     width: 100%;
-   
 }
-
-.menu-top{
-    
-}
-
 .menu-top h1{
     font-size: 48px;
     text-align: center;
-
-}
-
-.menu-menu{
-    
-}
-
-.menu-menuin{
-    
 }
 
 .menu-menuin li{
@@ -35,22 +20,17 @@
 .menu-menu1-content1{
     font-size: 36px;
 }
-
 .menu-menuin img{
     width: 258px;
     height: 258px;
     margin: 40px 80px;
     border-radius: 10px;
 }
-
-
 .menu-menuin h1{
     color: white;
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 36px;
 }
-
-
 .menu-menuin p{
     color: white;
     /* margin-left: 150px; */
