@@ -299,8 +299,12 @@ body{
         margin-right: auto;
         
       }
-      .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-        font-size: 80px;
+      
+      .middle-middle-under .swiper-button-next:after{
+        font-size: 20px;
+      }
+      .middle-middle-under .swiper-button-prev:after{
+        font-size: 20px;
       }
       
     /* 第三層 */
