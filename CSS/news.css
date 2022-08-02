@@ -87,6 +87,9 @@ input{
 
 
 @media (max-width: 415px) {
+    .latest-news-middle{
+        margin-bottom: 20px;
+    }
     .latest-news-top h1{
         font-size: 30px;
         margin-top: 10px;
@@ -112,6 +115,7 @@ input{
     
     .page-icon{
         margin:15px 0;
+        display: none;
     }
     
     

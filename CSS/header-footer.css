@@ -30,11 +30,16 @@ body{
     float: right;
     margin-top: 40px;
 }
+.header-top-in{
+    /* display: none; */
+}
 .header-in li{
     float: left;
     margin-right: 50px;
     position: relative;
 }
+
+
 
 .fa-bars {
 	display: none;
@@ -153,30 +158,53 @@ body{
         font-size: 30px;
         margin-top: 30px;
         margin-right: 10px;
+        color: white;
     }
     .header-in {
         float: right;
-        margin-top: 50px;
+        margin-top: -1px;
         max-height: 0;
 		overflow: hidden;
         transition:  0.5s;
-    	margin-top: 1px;
     	position: absolute;
         z-index: 50;
     	top: 81px;
     	left: 0;
    		right: 0;
     	background: black;
-        
+    }
+    .header-top-in{
+        width: 414px;
+        background-color: black;
+        overflow: hidden;
+        transition:  0.3s;
+        z-index: 40;
+        opacity: 0.5;
+        position: absolute;
+        display: block;
+        height: 0;
     }
     .header-in.active {
         max-height: 500px; 
     }
+    .header-top-in.battle{
+        height: 100%;
+    }
+    
+
     .header-in li{
         float: none;
         margin-right: 0px;
         text-align: center;
     }
+    
+
+
+
+
+
+
+
     
     .header-in-hover::after{
         display: none;
@@ -232,6 +260,7 @@ body{
         font-size: 20px;
         margin: 3px;
         text-align: center;
+        color: blue;
     }
     
     .footer-right .icon {
@@ -239,6 +268,7 @@ body{
         display: flex;
         margin: 0px;
         justify-content: center;
+        text-align: center;
     }
     
     .fa-facebook-square {

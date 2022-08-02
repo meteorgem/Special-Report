@@ -232,6 +232,7 @@ body{
         width: 25%;
         right: 10px;
         bottom: 350px;
+        /* bottom: 590px; */
     }
     @keyframes meat{
         0% {

@@ -110,10 +110,13 @@
     .branch-middle-in p{
         width: 80%;
         height: 100%;
-        color: blue;
+        color: black;
         font-size: 18px;
         text-align: center;
         margin: 0 auto;
+        background-color: white;
+        /* border: 1px solid; */
+        box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
     .branch-middle-in img{
         width: 100%;
@@ -121,7 +124,7 @@
     }
     .branch-middle-in h1{
         font-size: 18px;
-        
+        text-align: center;
     }
     .branch-middle-in ul{
        margin: 20px auto;
@@ -137,6 +140,7 @@
         margin: 0px auto;
         margin-bottom: 10px;
         border-radius: 10px;
+        box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
 
     .branch-middle-in-middle{
@@ -146,7 +150,7 @@
         margin: 0px auto;
         margin-bottom: 10px;
         border-radius: 10px;
-        
+        box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
     
     .branch-middle-in-under{
@@ -156,6 +160,7 @@
         margin: 0px auto;
         margin-bottom: 10px;
         border-radius: 10px;
+        box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     }
 
 }
